@@ -1,0 +1,96 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#clearButton {
+    position: absolute;
+    top: 7px; /* Adjust as needed */
+    height: 30px;
+    width: 100px;
+    padding-top: 3px;
+    left: 20px; /* Adjust as needed */
+    border: 1px solid black;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#title{
+    position: absolute;
+    top: 40%; /* Adjust as needed */
+    left: 39%; /* Adjust as needed */
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 100px; /* Adjust line height to center vertically */
+    font-family: 'Indie Flower', cursive;
+    font-size: 80px;
+}
+#clearButton:hover {
+    background-color: #FFAABF;
+}
+#paintCanvas {
+    display: block;
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: rgba(140, 146, 172, 0.25);
+    color: #fff;
+    padding: 10px 0;
+    position: absolute; /* Position navbar absolutely */
+    width: 100%; /* Take full width */
+    top: 0;
+    z-index: 1; /* Ensure navbar is above other content */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    margin: 0;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: rgba(0, 128, 255, 1);
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  
